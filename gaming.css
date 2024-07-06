@@ -1,0 +1,38 @@
+* { box-sizing: border-box; }
+body { background-color: #30aa49;
+color: #666666;
+font-family: 'Comic Sans MS', cursive;
+margin: 0;
+}
+#wrapper { background-color: #FFFFFF;
+}
+header { background-color: #41589c;
+color: #FFFFFF;
+font-family: 'Comic Sans MS', cursive;
+padding: 1em;
+}
+header a { text-decoration: none; }
+header a:link       { color: #FFFFFF; }
+header a:visited { color: #FFFFFF; }
+header a:hover     { color: #90e39c; }
+h1 {  font-size: 1.5em;
+text-align: center;
+}
+h2 { color: #1976D2;
+font-family: Georgia, serif; 
+}
+h3 { font-family: Georgia, serif; }
+nav { background-color: #FFF;
+font-size: 1.2em;
+text-align: center;
+}
+nav a { text-decoration: none; }
+nav a:link       { color: #5C7FA3; }
+nav a:visited { color: #733462; }
+nav a:hover     { color: #A52A2A; }
+nav ul { display: flex;
+flex-direction: column;
+list-style-type: none; 
+margin: 0;
+padding: 0; 
+}
